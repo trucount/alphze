@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "username": "moviebuff123",
+    "email": "moviebuff@example.com",
+    "password": "password123",
+    "quizScores": {},
+    "likedVideos": [],
+    "achievements": [],
+    "level": 1,
+    "xp": 0,
+    "watchTime": 0,
+    "streak": 0,
+    "lastLoginDate": "",
+    "badges": [],
+    "friends": [],
+    "watchlist": [],
+    "reviewsWritten": 0,
+    "commentsPosted": 0,
+    "videosShared": 0,
+    "customLists": [],
+    "preferences": {
+      "favoriteGenres": [],
+      "notificationSettings": {
+        "email": true,
+        "push": true
+      },
+      "colorScheme": "default"
+    },
+    "challenges": [],
+    "rewards": [],
+    "watchParties": [],
+    "recommendations": [],
+    "viewingHistory": [],
+    "quizCreated": 0,
+    "pollsParticipated": 0,
+    "dailyChallengesCompleted": 0,
+    "weeklyGoals": {
+      "watchTime": 0,
+      "quizzesCompleted": 0,
+      "commentsPosted": 0
+    },
+    "socialScore": 0,
+    "contentCreatorScore": 0,
+    "fanTheories": [],
+    "predictionsCorrect": 0,
+    "virtualCurrency": 0,
+    "subscriptionTier": "free",
+    "referrals": 0,
+    "seasonPassProgress": 0,
+    "avatarItems": [],
+    "profileTheme": "default"
+  },
+  {
+    "id": 2,
+    "username": "seriesfanatic",
+    "email": "seriesfan@example.com",
+    "password": "password456",
+    "quizScores": {},
+    "likedVideos": [],
+    "achievements": [],
+    "level": 1,
+    "xp": 0,
+    "watchTime": 0,
+    "streak": 0,
+    "lastLoginDate": "",
+    "badges": [],
+    "friends": [],
+    "watchlist": [],
+    "reviewsWritten": 0,
+    "commentsPosted": 0,
+    "videosShared": 0,
+    "customLists": [],
+    "preferences": {
+      "favoriteGenres": [],
+      "notificationSettings": {
+        "email": true,
+        "push": true
+      },
+      "colorScheme": "default"
+    },
+    "challenges": [],
+    "rewards": [],
+    "watchParties": [],
+    "recommendations": [],
+    "viewingHistory": [],
+    "quizCreated": 0,
+    "pollsParticipated": 0,
+    "dailyChallengesCompleted": 0,
+    "weeklyGoals": {
+      "watchTime": 0,
+      "quizzesCompleted": 0,
+      "commentsPosted": 0
+    },
+    "socialScore": 0,
+    "contentCreatorScore": 0,
+    "fanTheories": [],
+    "predictionsCorrect": 0,
+    "virtualCurrency": 0,
+    "subscriptionTier": "free",
+    "referrals": 0,
+    "seasonPassProgress": 0,
+    "avatarItems": [],
+    "profileTheme": "default"
+  }
+]
+

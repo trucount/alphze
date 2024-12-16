@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: theme('colors.orange.500');
+  --color-background: theme('colors.gray.100');
+  --color-text: theme('colors.gray.900');
+}
+
+.dark {
+  --color-background: theme('colors.gray.900');
+  --color-text: theme('colors.gray.100');
+}
+
+[data-color-scheme="ocean"] {
+  --color-primary: theme('colors.blue.500');
+  --color-background: theme('colors.blue.100');
+  --color-text: theme('colors.blue.900');
+}
+
+[data-color-scheme="forest"] {
+  --color-primary: theme('colors.green.500');
+  --color-background: theme('colors.green.100');
+  --color-text: theme('colors.green.900');
+}
+
+[data-color-scheme="sunset"] {
+  --color-primary: theme('colors.red.500');
+  --color-background: theme('colors.red.100');
+  --color-text: theme('colors.red.900');
+}
+
+[data-color-scheme="lavender"] {
+  --color-primary: theme('colors.purple.500');
+  --color-background: theme('colors.purple.100');
+  --color-text: theme('colors.purple.900');
+}
+
+[data-color-scheme="midnight"] {
+  --color-primary: theme('colors.indigo.500');
+  --color-background: theme('colors.indigo.100');
+  --color-text: theme('colors.indigo.900');
+}
+
+[data-color-scheme="sunshine"] {
+  --color-primary: theme('colors.yellow.500');
+  --color-background: theme('colors.yellow.100');
+  --color-text: theme('colors.yellow.900');
+}
+
+[data-color-scheme="cherry-blossom"] {
+  --color-primary: theme('colors.pink.500');
+  --color-background: theme('colors.pink.100');
+  --color-text: theme('colors.pink.900');
+}
+
+[data-color-scheme="mint"] {
+  --color-primary: theme('colors.emerald.500');
+  --color-background: theme('colors.emerald.100');
+  --color-text: theme('colors.emerald.900');
+}
+
+[data-color-scheme="autumn"] {
+  --color-primary: theme('colors.amber.500');
+  --color-background: theme('colors.amber.100');
+  --color-text: theme('colors.amber.900');
+}
+
+[data-color-scheme="sky"] {
+  --color-primary: theme('colors.cyan.500');
+  --color-background: theme('colors.cyan.100');
+  --color-text: theme('colors.cyan.900');
+}
+
+[data-color-scheme="grape"] {
+  --color-primary: theme('colors.violet.500');
+  --color-background: theme('colors.violet.100');
+  --color-text: theme('colors.violet.900');
+}
+
+[data-color-scheme="coral"] {
+  --color-primary: theme('colors.rose.500');
+  --color-background: theme('colors.rose.100');
+  --color-text: theme('colors.rose.900');
+}
+
+[data-color-scheme="teal"] {
+  --color-primary: theme('colors.teal.500');
+  --color-background: theme('colors.teal.100');
+  --color-text: theme('colors.teal.900');
+}
+
+[data-color-scheme="slate"] {
+  --color-primary: theme('colors.slate.500');
+  --color-background: theme('colors.slate.100');
+  --color-text: theme('colors.slate.900');
+}
+
+[data-color-scheme="lime"] {
+  --color-primary: theme('colors.lime.500');
+  --color-background: theme('colors.lime.100');
+  --color-text: theme('colors.lime.900');
+}
+
+[data-color-scheme="fuchsia"] {
+  --color-primary: theme('colors.fuchsia.500');
+  --color-background: theme('colors.fuchsia.100');
+  --color-text: theme('colors.fuchsia.900');
+}
+
+[data-color-scheme="aqua"] {
+  --color-primary: theme('colors.sky.500');
+  --color-background: theme('colors.sky.100');
+  --color-text: theme('colors.sky.900');
+}
+
+[data-color-scheme="crimson"] {
+  --color-primary: theme('colors.red.700');
+  --color-background: theme('colors.red.50');
+  --color-text: theme('colors.red.900');
+}
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white font-bold py-2 px-4 rounded hover:bg-opacity-80 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50;
+  }
+}
+
+/* Add more utility classes as needed */
+
